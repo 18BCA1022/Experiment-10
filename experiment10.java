@@ -12,9 +12,9 @@ class colorpanel{
         change.setBackground(Color.LIGHT_GRAY); 
         
         choice.add("Red");  
-        choice.add("Green");  
-        choice.add("Blue");  
         choice.add("Yellow");  
+        choice.add("Blue");  
+        choice.add("Green");  
         choice.add("Pink");
         change.addActionListener(new ActionListener() {  
             public void actionPerformed(ActionEvent e) { 
@@ -24,13 +24,13 @@ class colorpanel{
                         f.setBackground(Color.RED);
                         break;
                     case 1:
-                        f.setBackground(Color.GREEN);
+                        f.setBackground(Color.YELLOW);
                         break;
                     case 2:
                         f.setBackground(Color.BLUE);
                         break;
                     case 3:
-                        f.setBackground(Color.YELLOW);
+                        f.setBackground(Color.GREEN);
                         break;
                     case 4:
                         f.setBackground(Color.PINK);
